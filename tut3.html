@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="on()">on</button>
+
+    <img src="https://i.pinimg.com/originals/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.png" id="bulb" height="200px" width="200px">
+
+    <button onclick="off()">off</button>
+
+
+    <script>
+
+        function off(){
+            document.getElementById('bulb').src="https://i.pinimg.com/originals/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.png";
+        }
+
+        function on(){
+            document.getElementById('bulb').src="https://cdn5.vectorstock.com/i/1000x1000/60/94/cartoon-glowing-yellow-light-bulb-vector-18016094.jpg";
+        }
+    </script>
+</body>
+</html>
